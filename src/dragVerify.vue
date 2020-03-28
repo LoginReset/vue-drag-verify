@@ -90,14 +90,14 @@
                     height: this.height + 'px',
                     lineHeight: this.height + 'px',
                     background: this.background,
-                    borderRadius: this.circle ? this.height / 2 + 'px' : 0
+                    // borderRadius: this.circle ? this.height / 2 + 'px' : 0
                 }
             },
             progressBarStyle: function () {
                 return {
                     background: this.progressBarBg,
                     height: this.height + 'px',
-                    borderRadius: this.circle ? this.height / 2 + 'px 0 0 ' + this.height / 2 + 'px' : 0
+                    // borderRadius: this.circle ? this.height / 2 + 'px 0 0 ' + this.height / 2 + 'px' : 0
                 }
             },
             textStyle: function () {
@@ -178,7 +178,7 @@
         position: relative;
         background-color: #e8e8e8;
         text-align: center;
-
+        overflow: auto;
     }
 
     .drag_verify .dv_handler {
