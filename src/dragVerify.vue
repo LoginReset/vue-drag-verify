@@ -19,8 +19,8 @@
         name: 'dragVerify',
         props: {
             borderRadius: {
-                type: Number,
-                default: 0
+                type: String,
+                default: '0px'
             },
             width: {
                 type: Number,
@@ -77,8 +77,7 @@
                     left: '0px',
                     width: this.height + 'px',
                     height: this.height + 'px',
-                    borderRadius:this.borderRadius+'px',
-                    borderRadius: this.circle ? '50%' : 0,
+                    borderRadius:this.borderRadius,
                     background: this.handlerBg,
                 }
             },
